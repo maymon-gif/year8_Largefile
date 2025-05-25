@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strength4You</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>STRENGTH4YOU</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="icon" href="../img/favicon.ico">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-nav fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/favicon.ico" alt="Logo" class="rounded-pill" id="logo_1">
+            </a>
+    
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Male Workouts</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="mworkout_wu.html">Warm-Up</a></li>
+                            <li><a class="dropdown-item" href="mworkout_l.html">Leg</a></li>
+                            <li><a class="dropdown-item" href="mworkout_p.html">Push</a></li>
+                            <li><a class="dropdown-item" href="#">See All...</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Female Workouts</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fmworkout_wu.html">Warm-Up</a></li>
+                            <li><a class="dropdown-item" href="fmworkout_ae.html">Arm Exercise</a></li>
+                            <li><a class="dropdown-item" href="fmworkout_lbe.html">Lower Body Exercise</a></li>
+                            <li><a class="dropdown-item" href="fmworkout_ce.html">Core Exercise</a></li>
+                            <li><a class="dropdown-item" href="fmworkout_s.html">Stretch</a></li>
+                            <li><a class="dropdown-item" href="fmworkout_all.html">See All...</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Equipment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us1.html">About Us</a>
+                    </li>
+                </ul>
+                </ul>
+                <button type="button" class="btn" data-bs-toggle="modal" id="signin" data-bs-target="#SignInModal"><img src="/img/signin_icon.png" alt="signin_signup" id="signin_img"></button>
+                <button type="button" class="btn bg-btn" id="signup"  data-bs-toggle="modal" data-bs-target="#SignUpModal">Sign Up</button>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn bg-btn">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade" id="SignInModal">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header d-flex flex-column align-items-center">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button></button>
+                    <span><img src="../img/favicon.ico" widht="30" height="30" id="img" alt="img"></span>
+                    <h5 class="modal-title ml-2">Sign In</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group mb-1">
+                            <button class="apply-button bg-btn">Sign In</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="SignUpModal">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+
+            <div class="modal-content">
+
+                <div class="modal-header d-flex flex-column align-items-center">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button></button>
+                    <span><img src="../img/favicon.ico" width="30" height="30" id="img" alt="img"></span>
+                    <h5 class="modal-title ml-2">Sign Up</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="email">Username</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Username">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                        </div>
+                        <div class="form-group mb-1">
+                            <button class="apply-button">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn bg-btn" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 p-5 rounded" id="intro">
+        <h1 class="display-4">Strength4You</h1>
+        <p class="intro_p">Here, we'll introduce the portfolio of the owners of this website</p>
+        <a href="menu.html"><button class="btn bg-btn">Male Workout</button></a>
+        <a href="menu.html"><button class="btn bg-btn">Female Workout</button></a>
+        <img src="/image/cooki_realm.png" alt="logo" id="logo">
+    </div>
+    <br>
+    <br>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card" style="width:300px">
+                    <div class="card-header" id="card_header">
+                        <img class="card-img-top" src="../img/kris_photo.png" alt="Card Image" style="width:266px">
+                    </div>
+                    <div class="card-body" id="card_body">
+                        <h4 class="card-title">Kyi Phyu Shin Thant</h4>
+                        <p class="card-text">29/10/2010</p>
+                        <p class="card-text">Founder, Researcher</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width:300px">
+                    <div class="card-header" id="card_header">
+                        <img class="card-img-top" src="../img/cookie_photo.png" alt="Card Image" style="width:266px">
+                    </div>
+                    <div class="card-body" id="card_body">
+                        <h4 class="card-title">Aung Pyae Hlyan Hein</h4>
+                        <p class="card-text">02/09/2012</p>
+                        <p class="card-text">Manager, Owner, Researcher</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width:300px">
+                    <div class="card-header" id="card_header">
+                        <img class="card-img-top" src="../img/sho_photo.png" alt="Card Image" style="width:266px">
+                    </div>
+                    <div class="card-body" id="card_body">
+                        <h4 class="card-title">Soe Htike Oo</h4>
+                        <p class="card-text">19/07/2011</p>
+                        <p class="card-text">Co-founder, Researcher</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="footer_main">
+        <!--<footer class="footer">
+            <b><p id="footer-title">Strength4You</p></b>
+            <p id="footer-para">A place of practice-improving your overall health and well-being.</p>
+            <a href="about_us1.html"><button class="btn bg-btn" id="footer-btn">About Us</button></a>
+            <a href="about_us2.html"><img src="../img/youtube_icon.png" alt="#" id="icon" class="youtube"></a>
+            <a href="about_us2.html"><img src="../img/tiktok_icon.png" alt="#" id="icon" class="tiktok"></a>
+            <a href="about_us2.html"><img src="../img/facebook_icon.png" alt="#"  id="icon" class="facebook"></a>
+            <a href="about_us2.html"><img src="../img/discord_icon.png" alt="#"  id="icon" class="discord"></a>
+            <a href="about_us2.html"><img src="../img/telegram_icon.png" alt="#"  id="icon" class="telegram"></a>
+            <h4 id="contact">Contact</h4>
+            <p id="contact_bd">About</p>w
+            <h4 id="ff_w">Female Workout</h4>
+            <p id="ff_w1">Warm-Up</p>
+            <p id="ff_w2">Arm Exercise</p>
+            <p id="ff_w3">Lower Body Exercise</p>
+            <p id="ff_w4">Core Exercise</p>
+            <p id="ff_w5">Stretch</p>
+            <h4 id="fm_w">Male Workout</h4>
+            <p id="fm_w1">Warm-Up</p>
+            <p id="fm_w2">Leg</p>
+            <p id="fm_w3">Push</p>
+        </footer> -->
+        
+<footer class="site-footer">
+        
+    <div class="container-fluid">
+        <div class="row py-4 px-3">
+            <div class="col-12 col-md-4 px-3 ">
+                <img src="../img/favicon.ico" alt="Logo" class="rounded-pill" id="logo_1">
+                <b><p id="footer-title">Strength4You</p></b>
+            <p id="footer-para">A place of practice-improving your overall health and well-being.</p>
+            </div>
+            
+            <div class="col-12 col-md-4 px-3 ">
+                <h2>Quick links</h2>
+                    <ul class="list-unstyled footer-link">
+                        <li><a class="dropdown-item1" href="fmworkout_wu.html">Warm-Up</a></li>
+                            <li><a class="dropdown-item1" href="fmworkout_ae.html">Arm Exercise</a></li>
+                            <li><a class="dropdown-item2" href="fmworkout_lbe.html">Lower Body Exercise</a></li>
+                            <li><a class="dropdown-item2" href="fmworkout_ce.html">Core Exercise</a></li>
+                            <li><a class="dropdown-item2" href="fmworkout_s.html">Stretch</a></li>
+                            <li><a class="dropdown-item2" href="fmworkout_all.html">See All...</a></li>
+                    </ul>
+            </div>
+            <div class="col-12 col-md-4 px-3 ">
+                <h2>Social Media</h2>
+                        <ul class="list-unstyled footer-link  footer-social">
+                            <li><a href="#">facebook</a></li>
+                            <li><a href="#">twitter</span></a></li>
+                            <li><a href="#">instagram</span></a></li>
+                            <li><a href="#">youtube</span></a></li>
+                            <li><a href="#">google</a></li>
+                        </ul>
+            </div>
+        </div>
+  </div>
+    <div>
+        <p class="text-center mt-3">© Copyright 2025-2026 www.nutrilife.com. All rights reserved</p>
+     </div>
+</footer>
+    </div>
+
+</body>
+</html>
